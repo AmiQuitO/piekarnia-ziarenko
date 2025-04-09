@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+/* BASE CLASSES */
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* CONTENT */
+#content{
+    width: 30vw;
+    height: 80vh;
+}
+.banner{
+    height: 15vh;
+}
+.banner_text{
+    font-size: 25px;
+    font-family: Font-BD;
+}
+.text{
+
+}
+
+/* PANELS */
+#panels{
+    width: 50vw;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.panel{
+    width: 30%;
+    height: 100%;
+}
