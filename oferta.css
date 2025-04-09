@@ -8,16 +8,16 @@ body {
   .container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
   }
 
   .card {
     position: relative;
-    width: 300px;
-    height: 420px;
+    width: 400px;
+    height: 700px;
     color: white;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     display: flex;
