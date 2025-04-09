@@ -50,15 +50,22 @@ body {
   }
   .piekarnia {
     background-image: url('media/bulki.png');
-  }
+    background-size: cover;
+    background-position: center;
+}
 
-  .cukiernia {
+.cukiernia {
     background-image: url('media/ciastka.png');
-  }
+    background-size: cover;
+    background-position: center;
+}
 
-  .garmazeria {
+
+.garmazeria {
     background-image: url('media/krokiet.png');
-  }
+    background-size: cover;
+    background-position: center;
+}
   h2{
     height: 0px;
     color: blanchedalmond;
