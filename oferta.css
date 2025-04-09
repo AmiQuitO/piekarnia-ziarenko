@@ -60,7 +60,7 @@ body {
     text-decoration: underline;
   }
   .piekarnia {
-    background-image: url('media/');
+    background-image: url('media/bulki.png');
   }
 
   .cukiernia {
@@ -69,4 +69,12 @@ body {
 
   .garmazeria {
     background-image: url('media/krokiet.png');
+  }
+  h2{
+    height: 0px;
+    color: blanchedalmond;
+  }
+  .gwiazda{
+    width: 400px;
+    height: 650px;
   }
