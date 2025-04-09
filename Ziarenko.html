@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <!-- Dodana nowa czcionka Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+         @font-face {
+            font-family: 'The Seasons Light';
+            src: url('FSPDEMO-TheSeasons-Light.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'The Seasons Light', sans-serif; /* Zastosowanie nowej czcionki */
+            margin: 0;
+            padding: 0;
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-weight: 400; /* Normalna grubość */
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 30px;
+        }
+        
+        .logo-container {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: -90px;
+        }
+        
+        .logo {
+            height: 300px;
+            width: auto;
+            max-width: 100%;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px; /* Nieco większy odstęp */
+            flex-wrap: wrap;
+            margin-top: -90px;
+           
+        }
+        
+        .nav-item {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+           /* text-transform: ;*/
+            letter-spacing: 1px; /* Zwiększony odstęp między literami */
+            white-space: nowrap;
+            font-weight: 600; /* Półpogrubienie */
+            transition: all 0.3s ease;
+        }
+        
+        .nav-item:hover {
+            color: #f1f1f1;
+            text-shadow: 0 0 5px rgba(255,255,255,0.5);
+        }
+        
+        .search-input {
+            border: 1px solid white;
+            padding: 6px 12px; /* Nieco większe paddingi */
+            font-size: 14px; /* Większa czytelność */
+            width: 120px;
+            text-transform: uppercase;
+            outline: none;
+            background: transparent;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .search-input::placeholder {
+            color: rgba(255,255,255,0.7);
+            font-weight: 300;
+        }
+        
+        .content {
+            padding: 40px 15px;
+            text-align: center;
+        }
+        
+        .offer-box {
+            height: 40px;
+            color: white;
+            display: inline-block;
+            border: 2px solid white;
+            padding: 25px 50px;
+            margin-top: 180px;
+            backdrop-filter: blur(5px);
+            background-color: rgba(255,255,255,0.1);
+        
+        }
+        
+        .page-title {
+            font-size: 32px; /* Nieco większy rozmiar */
+            text-transform: uppercase;
+            font-weight: 600; /* Półpogrubienie */
+            margin: 0;
+            letter-spacing: 1.5px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop playsinline class="video-background">
+        <source src="wideo.mp4" type="video/mp4">
+        Twoja przeglądarka nie obsługuje wideo w tle.
+    </video>
+    <div class="header">
+        <div class="logo-container">
+            <img src="ziarno.png" alt="Logo" class="logo">
+        </div>
+        
+        <div class="nav-container">
+            <a href="#" class="nav-item">O nas</a>
+            <a href="#" class="nav-item">Oferta</a>
+            <a href="#" class="nav-item">Torty</a>
+            <a href="#" class="nav-item">Nasze sklepy</a>
+            <a href="#" class="nav-item">Kontakt</a>
+            <input type="text" class="search-input" placeholder="SZUKAJ">
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="offer-box">
+            <h1 class="page-title">Oferta</h1>
+        </div>
+    </div>
+</body>
+</html>
