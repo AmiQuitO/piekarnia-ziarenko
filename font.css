@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Font-BD';
+    src: url('fonts/Font-BD.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-BDIT';
+    src: url('fonts/Font-BDIT.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-IT';
+    src: url('fonts/Font-IT.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-LT';
+    src: url('fonts/Font-LT.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-LTIT';
+    src: url('fonts/Font-LTIT.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-REG';
+    src: url('fonts/Font-REG.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font-Seasons';
+    src: url('fonts/Font-Seasons.ttf') format('truetype');
+}
+
+.BD{
+    font-family: 'Font-BD';
+}
+.BDIT{
+    font-family: 'Font-BDIT';
+}
+.IT{
+    font-family: 'Font-IT';
+}
+.LT{
+    font-family: 'Font-LT';
+}
+.LTIT{
+    font-family: 'Font-LTIT';
+}
+.REG{
+    font-family: 'Font-REG';
+}
+.Seasons{
+    font-family: 'Font-Seasons';
+}
