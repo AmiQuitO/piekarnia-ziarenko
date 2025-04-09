@@ -20,7 +20,7 @@ body{
     flex-wrap: wrap;
 }
 .image{
-    background-size: cover;
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -31,15 +31,35 @@ body{
 }
 .banner{
     height: 15vh;
+    align-items: center;
+    justify-content: center;
 }
 .banner_text{
+    width: 40%;
     font-size: 25px;
     font-family: Font-BD;
+    text-align: center;
+}
+.banner_image{
+    width: 60%;
+    height: 100%;
 }
 .text{
-
+    height: auto;
 }
+.more{
+    align-items: end;
+}
+#more_button{
+    width: auto;
+    border: 5px solid #eab80f;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
 
+    font-size: 20px;
+
+    color: #eab80f;
+}
 /* PANELS */
 #panels{
     width: 50vw;
