@@ -4,37 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piekarnia Ziarenko</title>
-    <link href="fonts.css" rel="stylesheet">
-    <link href="oferta.css" rel="stylesheet">
+    <link href="stylesheets/fonts.css" rel="stylesheet">
+    <link href="stylesheets/oferta.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <div class="card piekarnia">
-          <div class="card-content">
-            <h2>Piekarnia</h2>
-            <img src="media/gwiazda.svg" class="gwiazda" alt="Gwiazda">
-            <p class="tekst-pierwszy">Pieczywo wypiekane na naturalnym zakwasie. <br>Niepowtarzalny smak, świeżość i tradycja.</p>
-            <a href="#">Zobacz więcej</a>
-          </div>
-        </div>
-    
-        <div class="card cukiernia">
-          <div class="card-content">
-            <h2>Cukiernia</h2>
-            <img src="media/gwiazda.svg" class="gwiazda">
-            <p>Szeroki wybór ciast na każdą okazję, tak aby każdy znalazł coś dla siebie.</p>
-            <a href="#">Zobacz więcej</a>
-          </div>
-        </div>
-    
-        <div class="card garmazeria">
-          <div class="card-content">
-            <h2>Wyroby <br>Garmażeryjne</h2>
-            <img src="media/gwiazda.svg" class="gwiazda">
-            <p>Gotowe dania, szybko i smacznie!</p>
-            <a href="#">Zobacz więcej</a>
-          </div>
-        </div>
+<body class="flex-row">
+    <div class="panel image flex-col" style="background-image: url('media/bulki.png');">
+      <div class="text panel_title flex-col">
+        <div>Piekarnia</div>
       </div>
+      <div class="image panel_separator" style="background-image: url('media/gwiazda.svg');"></div>
+      <div class="text panel_text">Pieczywo wypiekane na naturalnym zakwasie. <br>Niepowtarzalny smak, świeżość i tradycja.</div>
+      <div class="text panel_button">Zobacz więcej</div>
+    </div>
+    <div class="panel image flex-col" style="background-image: url('media/ciastka.png');">
+      <div class="text panel_title flex-col">
+        <div>Cukiernia</div>
+      </div>
+      <div class="image panel_separator" style="background-image: url('media/gwiazda.svg');"></div>
+      <div class="text panel_text">Szeroki wybór ciast na każdą okazję, tak aby każdy znalazł coś dla siebie.</div>
+      <div class="text panel_button">Zobacz więcej</div>
+    </div>
+    <div class="panel image flex-col" style="background-image: url('media/krokiet.png');">
+      <div class="text panel_title flex-col">
+        <div>Wyroby<br>Garmażeryjne</div>
+      </div>
+      <div class="image panel_separator" style="background-image: url('media/gwiazda.svg');"></div>
+      <div class="text panel_text">Gotowe dania, szybko i smacznie!</div>
+      <div class="text panel_button">Zobacz więcej</div>
+    </div>
 </body>
 </html>
