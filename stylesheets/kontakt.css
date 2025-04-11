@@ -1,87 +1,98 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
+  margin: 0;  
+  font-family: Arial, sans-serif;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .container {
-    display: flex;
-    max-width: 1400px;
-    width: 100%;
-    min-height: 100vh;
-  }
+.container {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  min-height: 100vh;
+}
 
-  .left {
-    flex: 1;
-    padding: 40px;
-    background-color: black;
-    color: white;
-  }
+.left {
+  flex: 1;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  position: relative; 
+}
 
-  .left img {
-    width: 200px;
-    margin-bottom: 40px;
-  }
+.logo-box {
+  position: absolute;
+  top: 0; 
+  right: 40px; 
+}
 
-  .left p, .left strong {
-    margin: 8px 0;
-    font-size: 18px;
-  }
+.logo-box img {
+  width: 200px;
+}
 
-  .address {
-    margin-top: 20px;
-  }
+.left p, .left strong {
+  margin: 8px 0;
+  font-size: 18px;
+}
 
-  .right {
-    flex: 0.6;
-    background-color: white;
-    color: black;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.address {
+  margin-top: 20px;
+}
 
-  h2 {
-    margin-bottom: 20px;
-  }
+.right {
+  flex: 0.6;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-  }
+h2 {
+  margin-bottom: 20px;
+}
 
-  select, input, textarea {
-    margin-bottom: 15px;
-    padding: 12px;
-    font-size: 16px;
-    background: #ddd;
-    border: none;
-    border-radius: 20px;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+}
 
-  textarea {
-    height: 120px;
-  }
+select, input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  background: #ddd;
+  border: none;
+  border-radius: 20px;
+}
 
-  .socials {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
-  }
+textarea {
+  height: 120px;
+}
 
-  .socials img {
-    width: 32px;
-    height: 32px;
-  }
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 100px;
+}
 
-  .footer-links {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #444;
-  }
-  .logo{
-    text-align: center;
-  }
+.socials img{
+  width: 32px;
+  height: 32px;
+  justify-content: space-between;
+}
+
+.footer-links {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+.napis{
+  margin-top: 150px;
+}
+.high-social{
+  margin-top: -300px;
+}
