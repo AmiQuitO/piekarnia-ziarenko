@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .left {
+    flex: 1;
+    padding: 40px;
+    background-color: black;
+    color: white;
+  }
+
+  .left img {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+
+  .left p, .left strong {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+
+  .address {
+    margin-top: 20px;
+  }
+
+  .right {
+    flex: 0.6;
+    background-color: white;
+    color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  select, input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    background: #ddd;
+    border: none;
+    border-radius: 20px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  .socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .socials img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer-links {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
+  }
+  .logo{
+    text-align: center;
+  }
